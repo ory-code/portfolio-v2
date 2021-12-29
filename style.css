@@ -38,6 +38,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+.contactarea .fa-linkedin {
+  color: white;
+  margin-right: 18px;
+  z-index: 100;
+  font-size: 26px;
+}
+.contactarea .fa-envelope {
+  color: white;
+  margin-right: 18px;
+  z-index: 100;
+  font-size: 26px;
 }
 .container {
   display: flex;
@@ -97,6 +110,21 @@ div.title {
     position: unset;
     display: flex;
     flex-direction: row;
+  }
+   .contactarea .fa-linkedin {
+    color: white;
+    margin-right: 18px;
+    z-index: 100;
+    font-size: 20px;
+    padding-bottom: 8px;
+  }
+  .contactarea .fa-envelope {
+    color: white;
+    margin-right: 18px;
+    z-index: 100;
+    font-size: 20px;
+    padding-bottom: 8px;
+
   }
 }
 @media (max-width: 330px) {
