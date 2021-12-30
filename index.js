@@ -24,7 +24,7 @@ async function open_terminal() {
   await delay(999);
   createText("You can run several commands:");
   createCode("all", "See all commands.");
-  createCode("profil", "Who am i and what do i do.");
+  createCode("profile", "Who am i and what do i do.");
   createCode("contact", "Contact me");
   await delay(600);
   new_line();
@@ -62,7 +62,7 @@ async function getInputValue() {
   if (value === "all") {
     trueValue(value);
     createCode("projects", "My github page with my projects.");
-    createCode("profil", "Who am i and what do i do.");
+    createCode("profile", "Who am i and what do i do.");
     createCode("skills", "My skills to code with you.");
     createCode("contact", "Contact me.");
     createCode("clear", "Clean the terminal.");
@@ -72,7 +72,7 @@ async function getInputValue() {
     createText(
       "<a href='https://github.com/ory-code' target='_blank'>github.com/ory-code;</a>"
     );
-  } else if (value === "profil") {
+  } else if (value === "profile") {
     trueValue(value);
     createText("Hello my name is Sacha;");
     createText(
